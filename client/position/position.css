@@ -1,0 +1,7 @@
+.player{
+	position: absolute;
+	left: {{left}};
+	top: {{top}};
+	width: 100px;
+	background-color: blue;
+}

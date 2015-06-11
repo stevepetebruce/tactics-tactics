@@ -1,0 +1,20 @@
+<template name="position">
+	<div id="{{_id}}" class="modal player">
+		<div class="modal-header">
+			<a class="close" data-dismiss="modal">x</a>
+			{{#if editing_tablename}}
+			<input class="input input-medium tablename" value="{{name}}" type="text"/>
+			{{else}}
+			<h6 class="tablename"><i class="icon icon-tasks"></i> {{name}}</h6>
+			{{/if}}
+		</div>
+		<div class="modal-body">
+        <span class="label label-success skills">Add Skills</span>
+      		<ul class="nav nav-pills nav-stacked">
+        		{{#each dbfields}}
+          			{{>dbfield}}
+        		{{/each}}
+      		</ul>
+    	</div>
+	</div>
+</template>
