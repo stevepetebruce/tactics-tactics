@@ -1,0 +1,29 @@
+
+ul.nav li.wider{
+	width: 99px;
+	padding: 0px;
+}
+
+ul.nav li{
+	width: 44px;
+	height: 42px;
+	padding: 0px;
+}
+
+ul.nav img{
+	width: 24px;
+	padding: 0;
+}
+
+ul.nav img.footballsize {
+	width: 34px;
+	margin-top: -4px ;
+}
+
+ul.nav img.afootsize {
+	width: 28px;
+}
+
+ul.nav img.rugbysize {
+	width: 26px;
+}
