@@ -1,6 +1,11 @@
 .pitchfour {
 	height:100vh;
-	background-color: brown;
+	background-image: url(surface/baseball_pitch.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+	background-color: green;
+
 }
 
 
