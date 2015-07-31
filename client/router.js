@@ -8,7 +8,6 @@ Router.map(function(){
 	this.route('basketball',{path:'/basketball'});
 	this.route('afootball',{path:'/afootball'});
 	this.route('baseball',{path:'/baseball'});
-	this.route('hockey',{path:'/hockey'});
 	this.route('icehockey',{path:'/icehockey'});
 	this.route('rugby',{path:'/rugby'});
 })

@@ -1,6 +1,10 @@
 .pitchtwo {
-	height:100vh;
-	background-color: brown;
+	height:95vh;
+	background-image: url(surface/Basketball_court.svg);
+	background-repeat: no-repeat;
+	background-size: auto 98%;
+	background-position: center top;
+	background-color: #666;
 }
 
 

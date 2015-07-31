@@ -1,6 +1,10 @@
 .pitchseven {
-	height:100vh;
-	background-color: brown;
+	height:95vh;
+	background-image: url(surface/Rugby_field.svg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center top;
+	background-color: #257A10;
 }
 
 
